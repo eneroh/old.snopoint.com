@@ -9,7 +9,7 @@
 	outline: 0;
 	vertical-align: baseline;
 	background: transparent;
-	font-family: 'lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 /*@font-face {
@@ -23,35 +23,38 @@ body {
 
 /* page specific ids */
 
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
 h2 {
 	color: #007eff;
 }
 
+table {
+	empty-cells: hide;
+}
+
 #intro {
 	color: #FFFFFF;
-	margin-top: 4%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: 5px solid black;
 	height: 100%;
-	width: auto;
+	width: 100%;
 }
 
 #info {
 	color: #FFFFFF;
-	margin-top: 4%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: 5px solid black;
 	height: 100%;
 	width: auto;
 }
 
 #changelog {
-	margin-top: 4%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: 5px solid black;
+	height: 100%;
+	width: auto;
+}
+
+#projects {
+	color: #FFFFFF;
 	height: 100%;
 	width: auto;
 }
@@ -59,28 +62,30 @@ h2 {
 /* nav bar in all its glory */
 
 nav {
-	padding-top: 1.5%;
+	padding-top: 3%;
+	padding-bottom: 5%;
 	position: static;
-	height: 30px;
+	height: 5%;
 	width: 100%;
 	list-style-type: none;
-	text-align: center;
 	font-size: 110%;
+	float: right;
+	display: inline;
+	text-align: center;
 }
 
 nav li {
 	display: inline;
-	padding: 10px 0;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 nav a {
-	border-radius: 7px;
-	margin: 0 30px;
-	padding: 10px 30px;
-	font-size: 12px;
+	border-radius: 7%;
+	margin: 0 1%;
+	padding: 1% 1%;
+	font-size: 75%;
 	color: #ffffff;
 }
 
@@ -89,11 +94,23 @@ nav a:hover {
 	color: #000000;
 }
 
+nav .current {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.navlogo {
+	height: 5%;
+	width: 100%;
+	display: inline;
+	margin-left: 25%;	
+}
+
 /* index related ids and classes */
 
 #parallax {
-	height: 1200px;
-	width: auto;
+	height: 1500px;
+	width: 100%;
 	background-image: url("../images/parallax.jpg");
 	background-attachment: fixed;
 	background-position: center;
@@ -102,10 +119,9 @@ nav a:hover {
 }
 
 #header {
-	margin-top: 20%;
+	padding-top: 15%;
 	height: auto;
 	width: auto;
-	background-color: #;
 }
 
 .logo {
@@ -127,35 +143,61 @@ nav a:hover {
 /* info classes */
 
 #infomain {
-	padding-left: 5%;
-	height: 800px;
+	padding-top: 4%;
+	padding-left: 25%;
+	height: auto;
 	width: auto;
 }
 
 .infoleft {
-	height: auto;
+	height: 100%;
 	width: 50%;
 	float: left;
 	display: inline;
+	padding-bottom: 4%;
 }
 
 .inforight {
-	height: auto;
-	width: 35%;
+	height: 100%;
+	width: 50%;
 	float: right;
 	display: inline;
+	padding-bottom: 5%;
+}
+
+/* info pic divs */
+
+.pic1 {
+	margin: 5%;	
+}
+
+.pic2 {
+	margin: 5%;
 }
 
 /* Changelog classes */
 
 #clmain {
-	padding-left: 5%
+	padding-top: 4%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 5%;
 }
 
 .cltable {
 	color: #FFFFFF;
 	border: 3px solid black;
-	border-collapse: collapse;
+	border-collapse: separate;
+}
+
+/* Projects classes */
+
+#projmain {
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 5%;
+	height: auto;
+	width: auto;
 }
 
 /* Table styling options */
@@ -172,6 +214,10 @@ a {
 	color: #FFFFFF;
 }
 
+a:active {
+	color: #1b1b1b;
+}
+
 a:hover {
 	color: #007eff;
 }
@@ -184,8 +230,131 @@ a:visited {
 
 @media screen and (max-width:992px) {
 
+	.navlogo {
+		margin-left: 5%;
+	}
+
+	#infomain {
+		padding-left: 5%;
+		padding-right: 5%;	
+	}
+
+	.infoleft {
+		width: 100%;
+	}
+	
+	.inforight {
+		width: 100%;
+	}
+
+	.pic1 {
+		display: inline;
+	}
+
+	.pic2 {
+		display: inline;
+	}
+
+	#clmain {
+		padding-left: 5%;
+		padding-right: 5%;
+	}	
 }
+
+@media screen and (max-width: 768px) {
+
+	.navlogo {
+		margin-left: 5%;
+	}
+
+	#infomain {
+		padding-left: 5%;
+		padding-right: 5%;	
+	}
+
+	.infoleft {
+		width: 100%;
+	}
+
+	.inforight {
+		width: 100%;
+	}
+
+	.pic1 {
+		display: inline;
+	}
+
+	.pic2 {
+		display: inline;
+	}
+
+	#clmain {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 
 @media screen and (max-width: 600px) {
 
+	.navlogo {
+		margin-left: 5%;
+	}
+
+	#infomain {
+		padding-left: 5%;
+		padding-right: 5%;	
+	}
+
+	.infoleft {
+		width: 100%;
+	}
+	
+	.inforight {
+		width: 100%;
+	}
+
+	.pic1 {
+		display: inline;
+	}
+
+	.pic2 {
+		display: inline;
+	}
+
+	#clmain {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+
+	.navlogo {
+		margin-left: 5%;
+	}
+
+	#infomain {
+		padding-left: 5%;	
+		padding-right: 5%;
+	}
+
+	.infoleft {
+		width: 100%;
+	}
+
+	.inforight {
+		width: 100%;
+	}
+
+	.pic1 {
+		display: inline;
+	}
+
+	.pic2 {
+		display: inline;
+	}
+	
+	#clmain {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 }
