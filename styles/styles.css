@@ -81,12 +81,21 @@ table:nth-child(odd) {
 	color: #FFFFFF;
 	height: 100%;
 	width: auto;
+	overflow: scroll;
 }
+
+#services {
+	color: #FFFFFF;
+	height: 100%;
+	width: auto;
+}
+
 
 #contact {
 	color: #FFFFFF;
 	height: 100%;
 	width: auto;
+	overflow: scroll;
 }
 
 /* nav bar in all its glory */
@@ -98,13 +107,11 @@ nav {
 	height: 10%;
 	width: 100%;
 	list-style-type: none;
-	font-size: 110%;
 	text-align: center;
 }
 
 nav li {
 	display: inline;
-	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -113,8 +120,8 @@ nav a {
 	border-radius: 7%;
 	margin: 0 1%;
 	padding: 1% 1%;
-	font-size: 75%;
-	color: #ffffff;
+	font-size: 85%;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -138,7 +145,7 @@ nav .current {
 /* index related ids and classes */
 
 #parallax {
-	height: 1500px;
+	height: 1000px;
 	width: 100%;
 	background-image: url("../images/parallax.jpg");
 	background-attachment: fixed;
@@ -172,14 +179,16 @@ nav .current {
 /* info classes */
 
 #infomain {
+	padding-top: 2.5%;
 	padding-left: 20%;
+	padding-right: 10%;
 	height: auto;
 	width: auto;
 }
 
 .infoleft {
 	height: 100%;
-	width: 50%;
+	width: 55%;
 	float: left;
 	display: inline;
 	padding-bottom: 5%;
@@ -187,20 +196,24 @@ nav .current {
 
 .inforight {
 	height: 100%;
-	width: 50%;
+	width: 45%;
 	float: right;
 	display: inline;
-	padding-bottom: 5%;
+	text-align: center;
 }
 
 /* info pic divs */
 
 .pic1 {
-	margin: 5%;	
+	padding: 5%;
 }
 
 .pic2 {
-	margin: 5%;
+	padding: 5%;
+}
+
+.pic3 {
+	padding: 5%;
 }
 
 /* Changelog classes */
@@ -218,6 +231,7 @@ nav .current {
 	width: 100%;
 }
 
+
 /* Projects classes */
 
 #projmain {
@@ -229,6 +243,22 @@ nav .current {
 }
 
 #projtable {
+	display: block;
+	width: 100%;
+}
+
+
+/* Services classes */
+
+#servmain {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 5%;
+	height: auto;
+	width: auto;
+}
+
+#servtable {
 	display: block;
 	width: 100%;
 }
@@ -285,6 +315,7 @@ a:visited {
 	
 	.inforight {
 		width: 100%;
+		padding-top: 0%;
 	}
 
 	.pic1 {
@@ -295,7 +326,11 @@ a:visited {
 		display: inline;
 	}
 	
-	#projmain {
+	.pic3 {
+		display: inline;
+	}
+
+	#servmain {
 		width: 100%;
 		padding-left: 0%;
 		padding-right: 0;
@@ -313,7 +348,6 @@ a:visited {
 		padding-right: 0%;
 	}
 }
-
 
 @media screen and (max-width: 768px) {
 
@@ -334,6 +368,7 @@ a:visited {
 	
 	.inforight {
 		width: 100%;
+		padding-top: 0%;
 	}
 
 	.pic1 {
@@ -343,8 +378,12 @@ a:visited {
 	.pic2 {
 		display: inline;
 	}
+	
+	.pic3 {
+		display: inline;
+	}
 
-	#projmain {
+	#servmain {
 		width: 100%;
 		padding-left: 0%;
 		padding-right: 0%;
@@ -370,6 +409,11 @@ a:visited {
 		width: 100%;
 		padding-left: 0%;
 	}
+	
+	nav a {
+		font-size: 74.5%;
+		color: #FFFFFF;
+	}
 
 	#infomain {
 		width: 100%;
@@ -383,6 +427,7 @@ a:visited {
 	
 	.inforight {
 		width: 100%;
+		padding-top: 0%;
 	}
 
 	.pic1 {
@@ -393,7 +438,11 @@ a:visited {
 		display: inline;
 	}
 	
-	#projmain {
+	.pic3 {
+		display: none;
+	}
+
+	#servmain {
 		width: 100%;
 		padding-left: 0%;
 		padding-right: 0%;
@@ -420,6 +469,11 @@ a:visited {
 		padding-left: 0%;
 	}
 
+	nav a {
+		font-size: 74.5%;
+		color: #FFFFFF;
+	}
+
 	#infomain {
 		width: 100%;
 		padding-left: 0%;
@@ -432,6 +486,7 @@ a:visited {
 	
 	.inforight {
 		width: 100%;
+		padding-top: 0%;
 	}
 
 	.pic1 {
@@ -442,7 +497,11 @@ a:visited {
 		display: inline;
 	}
 	
-	#projmain {
+	.pic3 {
+		display: none;
+	}
+
+	#servmain {
 		width: 100%;
 		padding-left: 0%;
 		padding-right: 0%;
