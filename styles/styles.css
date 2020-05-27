@@ -33,28 +33,24 @@ h2 {
 }
 
 table {
-	empty-cells: hide;
-	display: block;
 	width: 100%;
 }
 
 th, td, tr, tbody {
-	display: block;
-	width: 100%;
+
 }
 
 td {
-	padding-top: 1%;
-	padding-bottom: 1%;
+	
 }
 
-table:nth-child(even) {
+table.cltabcus:nth-child(even) {
 	background-color: #1b1e4b;
 	text-align: center;
 	border: 1px solid black;
 }
 
-table:nth-child(odd) {
+table.cltabcus:nth-child(odd) {
 	text-align: center;
 	border: 1px solid black;
 }
@@ -81,7 +77,6 @@ table:nth-child(odd) {
 	color: #FFFFFF;
 	height: 100%;
 	width: auto;
-	overflow: scroll;
 }
 
 #services {
@@ -231,6 +226,20 @@ nav .current {
 	width: 100%;
 }
 
+.cltabcus {
+	display: block;
+	empty-cells: hide;
+	width: 100%;
+}
+
+table.cltabcus tr, table.cltabcus td, table.cltabcus tbody {
+	display: block;
+}
+
+table.cltabcus td {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
 
 /* Projects classes */
 
@@ -258,10 +267,37 @@ nav .current {
 	width: auto;
 }
 
-#servtable {
+/*#servtable {
 	display: block;
 	width: 100%;
+}*/
+
+table.servtab {
+	height: 100%;
+	width: 100%;	
+	table-layout: fixed;
 }
+
+table.servtab th, table.servtab tr, table.servtab td, table.servtab tbody {
+	border: 3px solid black;
+	vertical-align: middle;
+}
+
+/*#servleft {
+	text-align: right;
+	float: left;
+	width: 9%;
+	height: 100%;
+	display: inline;
+}
+
+#servright {
+	text-align: left;
+	float: right;
+	width: 90.5%;
+	height: 100%;
+	display: inline;
+}*/
 
 /* Contact classes */
 
