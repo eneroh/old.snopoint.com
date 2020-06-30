@@ -19,12 +19,14 @@
 
 body {
 	background-color: #1b1c23;
+	color: #f4f4f4;
+	line-height: 1.428;
 }
 
 /* page specific ids */
 
 h1 {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	text-align: center;
 }
 
@@ -56,38 +58,40 @@ table.cltabcus:nth-child(odd) {
 }
 
 #intro {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: 100%;
 }
 
 #info {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: auto;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #changelog {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: auto;
 }
 
 #projects {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: auto;
 }
 
 #services {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: auto;
 }
 
 
 #contact {
-	color: #FFFFFF;
+	color: #f4f4f4;
 	height: 100%;
 	width: auto;
 	overflow: scroll;
@@ -121,12 +125,12 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #FFFFFF;
+	background-color: #f4f4f4;
 	color: #000000;
 }
 
 nav .current {
-	background-color: #FFFFFF;
+	background-color: #f4f4f4;
 	color: #000000;
 }
 
@@ -171,12 +175,58 @@ nav .current {
 
 }
 
+/* Universal classes */
+
+.pagehead {
+	border-bottom: 1px solid #f4f4f4;
+	height: auto;
+	width: 100%;
+	list-style-type: none;
+	padding-bottom: 40px;
+	margin-right: 10%;
+}
+
+.pageleft {
+	color: #007eff;
+	font-size: 150%;
+	float: left;
+}
+
+.pageright {
+	color: #f4f4f4;
+	font-size: 150%;
+	float: right;
+}
+
+.infohead {
+	border: 1px solid #494949;
+	background-color: #262831;
+	border-radius: 3px;
+	display: block;
+	height: 100%;
+	width: auto;
+	padding: 1.75% 1.75%;
+}
+
+.infobody {
+	background-color: #18191f;
+	border: 1px solid #494949;
+	border-radius: 3px;
+	display: block;
+	padding: 1.75% 1.75%;
+}
+
+.infobody ul {
+	list-style-type: none;
+}
+
+
 /* info classes */
 
 #infomain {
-	padding-top: 2.5%;
-	padding-left: 20%;
-	padding-right: 10%;
+	padding-top: 7.5%;
+	padding-left: 17.5%;
+	padding-right: 17.5%;
 	height: auto;
 	width: auto;
 }
@@ -185,7 +235,6 @@ nav .current {
 	height: 100%;
 	width: 55%;
 	float: left;
-	display: inline;
 	padding-bottom: 5%;
 }
 
@@ -195,6 +244,7 @@ nav .current {
 	float: right;
 	display: inline;
 	text-align: center;
+	vertical-align: middle;
 }
 
 /* info pic divs */
@@ -273,14 +323,19 @@ table.cltabcus td {
 }*/
 
 table.servtab {
+	border: 1px solid black;
 	height: 100%;
-	width: 100%;	
+	width: 99.5%;	
 	table-layout: fixed;
 }
 
 table.servtab th, table.servtab tr, table.servtab td, table.servtab tbody {
-	border: 3px solid black;
 	vertical-align: middle;
+}
+
+table.servtab td {
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 /*#servleft {
@@ -448,7 +503,7 @@ a:visited {
 	
 	nav a {
 		font-size: 74.5%;
-		color: #FFFFFF;
+		color: #f4f4f4;
 	}
 
 	#infomain {
@@ -507,7 +562,7 @@ a:visited {
 
 	nav a {
 		font-size: 74.5%;
-		color: #FFFFFF;
+		color: #f4f4f4;
 	}
 
 	#infomain {
