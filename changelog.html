@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Changelog - Snopoint</title>
+	<head><title>Changelog | Snopoint</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="../images/snopoint.png">
@@ -8,17 +8,44 @@
 	</head>
 	<body>
 		<section id="changelog">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a class="current" href="#">Changelog</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+			<nav>	
+				<div class="left">
+					<img src="../images/snopoint.png" alt="snopoint logo" width="48px">
+				</div>	
+				<div class="navhead">
+					<img src="../images/navhead.png" alt="snopoint text" width="210px">
+				</div>
+				<div class="right">
+					<ul>	
+						<li><a href="index.html">
+						<i class="fa fa-home"></i> Home</a></li>
+						<li><a href="projects.html">
+						<i class="fa fa-pencil-square-o"></i> Projects</a></li>
+						<li><a href="services.html">
+						<i class="fa fa-server"></i> Services</a></li>
+						<li><a href="#" class="current">
+						<i class="fa fa-commenting"></i> Changelog</a></li>
+						<li><a href="contact.html">
+						<i class="fa fa-phone"></i> Contact</a></li>
+					</ul>
+				</div>
 			</nav>
-			<div class="navlogo">
-				<img src="../images/snopoint.png" alt="snopoint logo" width="75px">
+			<div class="navcont">
+				<div class="navmain">
+					<div class="navlogo">
+						<img src="../images/snopoint.png" alt="snopoint logo" width="45px">
+					</div>
+					<div id="navitems">
+						<a href="index.html">Home</a>
+						<a href="projects.html">Projects</a>
+						<a href="services.html">Services</a>
+						<a href="#changelog" class="active">Changelog</a>
+						<a href="contact.html">Contact</a>
+					</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+				</div>
 			</div>
 			<div id="clmain">
 				<div class="pagehead">
@@ -28,6 +55,57 @@
 				<br>
 				<div class="infohead"><b>Changelog</b></div>
 				<div class="infobody">
+					<p>26 July 2020</p>
+				<ul>
+					<li>Added font awesome icons to nav bar, reflected changes to all pages</li>
+					<li>Requested feedback from "stakeholders"</li>
+					<li>Informed me of navhead text not being centered on Google Chrome web browser <a href="../images/navissue.png">Image</a></li>
+					<li>Resolved using a transparent image made using GIMP and adding navhead div</li>
+					<li>Lots of Formatting for nav</li>
+					<li>Idea to add image slideshow may have to be implemented shortly</li>
+					<li>Idea for adding a section shortcut textbox to each webpage, to make points of interest easier to reach</li>
+					<li>Site is reaching final design phase</li>
+					<li>May update design later to follow css grids layout but very doubtful</li>
+					<li>The website url has the .html format after the page name, other sites do not have this. To remove the .html format, I believe you need to convert all pages to xhtml. Determining whether going down this avenue is worth following</li>
+					<li>Research says that it's a simple fix, may implement shortly</li>
+					<li>Consolidation of website</li>
+				</ul>
+				<br>
+					<p>25 July 2020</p>
+				<ul>
+					<li>Changing old design of main navbar as it looks basic</li>
+					<li>Added logo to navbar (was an earlier design)</li>
+					<li>Floats separating logo and nav</li>
+					<li>Left and right elements added to nav for easier control</li>
+					<li>More @media formatting for all pages</li>
+					<li>Final design looks great, will be consolidating code to github shortly</li>
+					<li>Idea to add image slideshow to projects, services, changelog and contact pages (as they look rather dull</li>
+					<li><b>Idea for logo and nav header text to become images (IMPLEMENTED ON THE 26th JULY 2020)</b></li>
+					<li>Padding changes to all pages</li>
+					<li>Projmain id didn't have necessary @media changes, confusing me for 5 mins -.-</li>
+					<li>Projects was using servmain div instead of projmain</li>
+					<li>Tested @media padding changes, changed entire pages and affected parallax</li>
+					<li>Unhappy with results, returning to previous</li>
+					<li>More code cleanup</li>
+				</ul>
+				<br>
+					<p>24 July 2020</p>
+				<ul>
+					<li>Research into a better, cleaner smart device navigation menu</li>
+					<li>Research complete, decided on hamburger menu, implementation started on index.html</li>
+					<li><b>HAMBURGER MOBILE DEVICE MENU ADDED TO WEBSITE FOR SMARTPHONES, satisfied with results</b></li>
+					<li>Formatting changes for new smartphone hambuger nav menu</li>
+					<li>Background color added and changed to dominant website color #1b1c23</li>
+					<li>Removal of page title in top left of inactive nav bar</li>
+					<li>Replaced with logo of snopoint</li>
+					<li>Fixed order of drop down hamburger menu items (quite tedious)</li>
+					<li>Javascript code syntax repairs</li>
+					<li>Internal JS script added to all html docs</li>
+					<li>Copied smart device navbar code to all other pages</li>
+					<li>Significant additions to @media</li>
+					<li>Code cleanup</li>
+				</ul>
+				<br>
 					<p>30 June 2020</p>
 				<ul>
 					<li>Redesign of index info section</li>
@@ -263,5 +341,15 @@
 				</div>
 			</div>
 		</section>
+<script>
+function myFunction() {
+  var x = document.getElementById("navitems");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+  }
+}
+</script>
 	</body>
 </html>
