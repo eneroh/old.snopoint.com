@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Projects - Snopoint</title>
+		<title>Projects | Snopoint</title>
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="../images/snopoint.png">
@@ -10,18 +10,46 @@
 	<body>
 		<section id="projects">
 			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a class="current" href="#">Projects</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="changelog.html">Changelog</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+				<div class="left">
+					<img src="../images/snopoint.png" alt="snopoint logo" width="48px">
+				</div>	
+				<div class="navhead">
+					<img src="../images/navhead.png" alt="snopoint text" width="210px">
+				</div>
+				<div class="right">
+					<ul>	
+						<li><a href="index.html">
+						<i class="fa fa-home"></i> Home</a></li>
+						<li><a href="#" class="current">
+						<i class="fa fa-pencil-square-o"></i> Projects</a></li>
+						<li><a href="services.html">
+						<i class="fa fa-server"></i> Services</a></li>
+						<li><a href="changelog.html">
+						<i class="fa fa-commenting"></i> Changelog</a></li>
+						<li><a href="contact.html">
+						<i class="fa fa-phone"></i> Contact</a></li>
+					</ul>
+				</div>
 			</nav>
-			<div class="navlogo">
-				<img src="../images/snopoint.png" alt="snopoint logo" width="75px">
+			<div class="navcont">
+				<div class="navmain">
+					<div class="navlogo">
+						<img src="../images/snopoint.png" 
+						alt="snopoint logo" width="45px">
+					</div>
+					<div id="navitems">
+						<a href="index.html">Home</a>
+						<a href="#projects" class="active">Projects</a>
+						<a href="services.html">Services</a>
+						<a href="changelog.html">Changelog</a>
+						<a href="contact.html">Contact</a>
+					</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+				</div>
 			</div>
-			<div id="servmain">
+			<div id="projmain">
 				<div class="pagehead">
 					<div class="pageleft"><li>Snopoint</li></div>
 					<div class="pageright"><li>Projects</li></div>
@@ -258,5 +286,16 @@
 				</div>
 			</div>
 		</section>
+<script>
+function myFunction() {
+  var x = document.getElementById("navitems");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+  }
+}
+</script>
 	</body>
 </html>
+
