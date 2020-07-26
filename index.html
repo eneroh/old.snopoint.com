@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Home - Snopoint</title>
+		<title>Home | Snopoint</title>
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/x-icon" href="../images/snopoint.png">
@@ -12,14 +12,45 @@
 		<section id="intro">
 			<div id="parallax">	
 				<nav>
-					<ul>
-						<li><a class="current" href="#">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="changelog.html">Changelog</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+					<div class="left">
+						<img src="../images/snopoint.png" alt="snopoint logo" width="48px">
+					</div>
+					<div class="navhead">
+						<img src="../images/navhead.png" alt="snopoint text" width="210px">
+					</div>
+					<div class="right">
+						<ul>
+							<li><a class="current" href="#">
+							<i class="fa fa-home"></i> Home</a></li>
+							<li><a href="projects.html">
+							<i class="fa fa-pencil-square-o"></i> Projects</a></li>
+							<li><a href="services.html">
+							<i class="fa fa-server"></i> Services</a></li>
+							<li><a href="changelog.html">
+							<i class="fa fa-commenting"></i> Changelog</a></li>
+							<li><a href="contact.html">
+							<i class="fa fa-phone"></i> Contact</a></li>
+						</ul>
+					</div>
 				</nav>
+				<div class="navcont">
+					<div class="navmain">
+						<div class="navlogo">
+							<img src="../images/snopoint.png" 
+							alt="snopoint logo" width="45px">
+						</div>
+						<div id="navitems">
+							<a href="index.html" class="active">Home</a>
+							<a href="projects.html">Projects</a>
+							<a href="services.html">Services</a>
+							<a href="changelog.html">Changelog</a>
+							<a href="contact.html">Contact</a>
+						</div>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+					</div>
+				</div>
 				<div id="header">
 					<div class="logo"><img src="../images/snopoint.png"
 					alt="snopoint logo" width="100px" ></img></div>
@@ -41,15 +72,15 @@
 					to host numerous services that will benefit myself and those interested.</p>
 					<br><p>The purposes of this project are as follows:</p><br>
 					<ul>
-						<li>- Improve my knowledge in linux server administration,
+						<li>Improve my knowledge in linux server administration,
 						website & service hosting, as well as web development
 						</li>
-						<li>- Gather my thoughts and ideas in an organised manner
+						<li>Gather my thoughts and ideas in an organised manner
 						</li>
-						<li>- Act as the central domain or "splashpage" for my
+						<li>Act as the central domain or "splashpage" for my
 						numerous subdomains
 						</li>
-						<li>- Display information on projects I have planned
+						<li>Display information on projects I have planned
 						</li>
 					</ul>
 					</div>
@@ -81,7 +112,7 @@
 					<p>Thanks for showing interest in my website (:</p>
 					</p></div>
 				</div>
-				<div class="inforight">
+				<div class="infobottom">
 					<div class="pic1">
 						<br><br><br>
 						<img src="../images/badge.png" alt="Snowpoint City Badge"
@@ -96,5 +127,15 @@
 				</div>
 			</div>
 		</section>
+<script>
+function myFunction() {
+  var x = document.getElementById("navitems");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+  }
+}
+</script>
 	</body>
 </html>
