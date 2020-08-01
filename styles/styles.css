@@ -435,12 +435,16 @@ a:link {
 }
 
 a:active {
-	color: #1b1b1b;
+	color: #0000FF;
 	text-decoration: none;
 }
 
 a:hover {
 	color: #007eff;
+}
+
+a:visited {
+	color: #f4f4f4;	
 }
 
 /* Resizing options */
