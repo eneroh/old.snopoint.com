@@ -126,10 +126,6 @@ nav a:hover {
 	color: #000000;
 }
 
-nav a:visited {
-	color: #f4f4f4;	
-}
-
 nav .current {
 	background-color: #007eff;
 	color: #000000;
