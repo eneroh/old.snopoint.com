@@ -122,10 +122,6 @@ nav a:link {
 	text-decoration: none;
 }
 
-nav .current a:visited {
-	color: #f4f4f4;
-}
-
 nav a:hover {
 	background-color: #007eff;
 	color: #000000;
