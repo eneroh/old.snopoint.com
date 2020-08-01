@@ -127,6 +127,10 @@ nav a:hover {
 	color: #000000;
 }
 
+nav a:visited {
+	color: #f4f4f4;	
+}
+
 nav .current {
 	background-color: #007eff;
 	color: #000000;
@@ -188,11 +192,6 @@ nav .navhead {
 	text-decoration: none;
 	font-size: 17px;
 	display: block;
-}
-
-.navmain a:hover {
-	background-color: #ddd;
-	color: #000;
 }
 
 .navmain a:visited {
