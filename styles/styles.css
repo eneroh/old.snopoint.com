@@ -307,7 +307,7 @@ nav .navhead {
 }
 
 /* info pic divs */
-
+ Services
 .pic1 {
 	display: inline;
 	padding: 5%;
@@ -438,6 +438,10 @@ a:active {
 
 a:hover {
 	color: #007eff;
+}
+
+a:visited {
+	color: #f4f4f4;	
 }
 
 /* Resizing options */
