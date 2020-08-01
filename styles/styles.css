@@ -1,4 +1,4 @@
-/* styles.css */
+https://github.com/Eneroh/Eneroh.github.io/wiki/* styles.css */
 
 /*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');*/
 
@@ -122,13 +122,13 @@ nav a:link {
 	text-decoration: none;
 }
 
+nav a:visited {
+	color: #f4f4f4;
+}
+
 nav a:hover {
 	background-color: #007eff;
 	color: #000000;
-}
-
-nav a:visited {
-	color: #f4f4f4;
 }
 
 nav .current {
@@ -439,12 +439,12 @@ a:active {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #007eff;
-}
-
 a:visited {
 	color: #f4f4f4;	
+}
+
+a:hover {
+	color: #007eff;
 }
 
 /* Resizing options */
