@@ -436,9 +436,14 @@ a:active {
 	text-decoration: none;
 }
 
+a:visited {
+	color: f4f4f4;
+}
+
 a:hover {
 	color: #007eff;
 }
+
 /* Resizing options */
 
 @media screen and (max-width:992px) {
