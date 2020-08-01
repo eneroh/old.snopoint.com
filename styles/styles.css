@@ -430,10 +430,6 @@ a:link {
 	outline: 0;
 }
 
-a:visited {
-	color: #00FF00;
-}
-
 a:active {
 	color: #0000FF;
 	text-decoration: none;
