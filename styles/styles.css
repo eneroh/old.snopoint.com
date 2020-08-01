@@ -113,13 +113,17 @@ nav li {
 	font-weight: bold;
 }
 
-nav a:link, nav:visited {
+nav a:link {
 	border-radius: 5%;
 	margin: 0 1%;
 	padding: 1% 1%;
 	font-size: 85%;
 	color: #000000;
 	text-decoration: none;
+}
+
+nav:visited {
+	
 }
 
 nav a:hover {
@@ -424,10 +428,14 @@ table.servtab td {
 
 /* Hyperlink related items */
 
-a:link, a:visited {
+a:link {
 	color: #f4f4f4;
 	text-decoration: none;
 	outline: 0;
+}
+
+a:visited {
+	
 }
 
 a:active {
