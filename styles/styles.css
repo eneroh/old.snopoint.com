@@ -195,6 +195,10 @@ nav .navhead {
 	color: #000;
 }
 
+.navmain a:visited {
+	color: #f4f4f4;	
+}
+
 .active {
 	background-color: #007eff;
 	color: #f4f4f4;
