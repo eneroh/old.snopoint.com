@@ -122,8 +122,8 @@ nav a:link {
 	text-decoration: none;
 }
 
-nav:visited {
-	
+nav .current a:visited {
+	color: #f4f4f4;
 }
 
 nav a:hover {
@@ -435,7 +435,7 @@ a:link {
 }
 
 a:visited {
-	
+	color: #00FF00;
 }
 
 a:active {
