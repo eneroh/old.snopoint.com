@@ -365,10 +365,6 @@ table.cltabcus td {
 	width: auto;
 }
 
-#projmain a {
-	color: #f4f4f4;
-}
-
 /* Services classes */
 
 #servmain {
@@ -430,6 +426,7 @@ table.servtab td {
 /* Hyperlink related items */
 
 a:link {
+	color: #f4f4f4;
 	text-decoration: none;
 	outline: 0;
 }
