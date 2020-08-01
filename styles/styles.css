@@ -438,10 +438,6 @@ a:hover {
 	color: #007eff;
 }
 
-a:visited {
-	
-}
-
 /* Resizing options */
 
 @media screen and (max-width:992px) {
