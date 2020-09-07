@@ -137,14 +137,12 @@ nav .left {
 	display: inline;
 	position: relative;
 	width: 4.3%;
-	float: left;
 }
 
 nav .right {
 	padding-top: 1%;	
 	display: inline;
 	width: 80%;
-	float: right;
 }
 
 nav .navhead {
