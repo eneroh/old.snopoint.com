@@ -143,7 +143,7 @@ nav .left {
 nav .right {
 	padding-top: 1%;	
 	display: inline;
-	width: 75.7%;
+	width: 68.7%;
 	float: right;
 }
 
@@ -152,7 +152,6 @@ nav .navhead {
 	width: auto;
 	height: auto;
 	display: inline;
-	vertical-align: middle;
 }
 
 /* smart device nav bar */
