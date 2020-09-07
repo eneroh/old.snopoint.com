@@ -136,14 +136,14 @@ nav .current {
 nav .left {
 	display: inline;
 	position: relative;
-	width: 4.3%;
+	width: 10%;
 	float: left;
 }
 
 nav .right {
 	padding-top: 1%;	
 	display: inline;
-	width: 68.7%;
+	width: 74.7%;
 	float: right;
 }
 
