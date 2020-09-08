@@ -135,7 +135,7 @@ nav .current {
 
 nav .left {
 	display: inline;
-	position: relative;
+	position: absolute;
 	width: 25%;
 	float: left;
 }
