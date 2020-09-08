@@ -443,10 +443,6 @@ a:visited {
 	color: #f4f4f4;	
 }
 
-a:visited .active {
-	color: #000;	
-}
-
 /* Resizing options */
 
 @media screen and (max-width:992px) {
