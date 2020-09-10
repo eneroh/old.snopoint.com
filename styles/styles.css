@@ -200,10 +200,8 @@ navmain a:active {
 }
 
 .active {
-	background-color: #007eff;
 	color: #f4f4f4;
 }	
-}
 
 .navmain a:visited {
 	color: #f4f4f4;	
@@ -316,7 +314,7 @@ navmain a:active {
 }
 
 /* info pic divs */
- Services
+ 
 .pic1 {
 	display: inline;
 	padding: 5%;
