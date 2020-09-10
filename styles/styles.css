@@ -190,6 +190,12 @@ nav .navhead {
 	display: block;
 }
 
+.active {
+	background-color: #1b1c23;
+	color: white;
+}	
+}
+
 .navmain a:visited {
 	color: #f4f4f4;	
 }
