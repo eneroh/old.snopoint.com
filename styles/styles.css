@@ -190,9 +190,18 @@ nav .navhead {
 	display: block;
 }
 
+navmain a:hover {
+	background-color: #1a8bff; 	
+	color: #f4f4f4;
+}
+
+navmain a:active {
+	color: #f4f4f4;	
+}
+
 .active {
 	background-color: #007eff;
-	color: white;
+	color: #f4f4f4;
 }	
 }
 
