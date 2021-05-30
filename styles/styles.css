@@ -196,7 +196,7 @@ navmain a:hover {
 }
 
 navmain a:active {
-	color: #f4f4f4;	
+	color: #000;	
 }
 
 .active {
