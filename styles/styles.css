@@ -201,7 +201,7 @@ navmain a:active {
 
 .active {
 	background-color: #007eff; 
-	color: #f4f4f4;
+	color: #000;
 }	
 
 .navmain a:visited {
