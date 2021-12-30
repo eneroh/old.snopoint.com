@@ -56,7 +56,28 @@
 				</div>
 				<br>
 				<div class="infohead"><b>Contact</b></div>
-				<div class="infobody">This page will be continued after the email service is launched.
+				<div class="infobody">
+					<div class="form">
+						<form action="action_page">
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name="firstname" placeholder="Your Name">
+							
+							<label for="lname">Last Name</label>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name">
+							
+							<label for="country">Country</label>
+							<select id="country" name="country">
+								<option value="australia">Australia</option>
+								<option value="canada">Canada</option>
+								<option value="usa">usa</option>
+							</select>
+							
+							<label for="subject">Subject</label>
+							<textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+							<input tpe="submit" value="submit">
+						</form>
+					</div>
+					This page will be continued after the email service is launched.
 				<br><br>
 				admin@snopoint.xyz or contact@snopoint.xyz will most likely be the contact email address.
 				</div>
