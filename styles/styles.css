@@ -433,7 +433,7 @@ table.servtab td {
 
 .form {
   border-radius: 5px;
-  background-color: #313340;
+  background-color: #f4f4f4;
   padding: 20px;
 }
 
@@ -465,6 +465,10 @@ input[type=submit]:hover {
 }
 
 /* Hyperlink related items */
+
+.form label {
+	color: "#000";	
+}
 
 a:link {
 	color: #f4f4f4;
