@@ -92,7 +92,6 @@ table.cltabcus:nth-child(odd) {
 	color: #f4f4f4;
 	height: 100%;
 	width: auto;
-	overflow: scroll;
 }
 
 /* nav bar in all its glory */
