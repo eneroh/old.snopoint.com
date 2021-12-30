@@ -3,7 +3,7 @@
     $firstname = $_POST['fname'];
     $lastname = $_POST['lname'];
     $country = $_POST['country'];
-    $mailFrom = $_POST['mail'];
+    $mailFrom = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     
