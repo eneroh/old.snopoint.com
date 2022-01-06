@@ -274,7 +274,7 @@ navmain a:active {
 	display: block;
 	height: 100%;
 	width: auto;
-	padding: 1.75% 1.75%;
+	padding: 15px 20px;
 }
 
 .infobody {
@@ -282,7 +282,7 @@ navmain a:active {
 	border: 1px solid #494949;
 	border-radius: 3px;
 	display: block;
-	padding: 1.75% 1.75%;
+	padding: 15px 20px;
 }
 
 .infobody ul {
