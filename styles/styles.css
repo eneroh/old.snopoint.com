@@ -473,6 +473,11 @@ input[type=submit]:hover {
 
 /* Hyperlink related items */
 
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
 a:link {
 	color: #f4f4f4;
 	text-decoration: none;
