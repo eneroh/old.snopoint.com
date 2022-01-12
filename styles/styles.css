@@ -508,6 +508,10 @@ a:visited {
 		display: none;
 	}
 	
+	nav .left {
+		width: 0px;	
+	}
+	
 	nav .right {
 		width:	80.7%;
 	}
