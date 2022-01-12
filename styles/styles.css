@@ -500,10 +500,18 @@ a:visited {
 
 @media screen and (max-width:1136px) {
 	
-	.navhead {
+	nav .navhead {
 		display: none;
 	}
-
+	
+	navhead {
+		display: none;
+	}
+	
+	nav .right {
+		width:	80.7%;
+	}
+	
 	#infomain {
 		width: 100%;
 		padding-left: 0%;
