@@ -496,6 +496,65 @@ a:visited {
 
 /* Resizing options */
 
+@media screen and (max-width:1136px) {
+	#navhead {
+		display: none;
+		
+	}
+
+	#infomain {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;	
+	}
+
+	.infoleft {
+		width: 100%;
+	}
+	
+	.inforight {
+		width: 100%;
+		padding-top: 0%;
+	}
+
+	.pic1 {
+		display: inline;
+	}
+
+	.pic2 {
+		display: inline;
+	}
+	
+	.pic3 {
+		display: inline;
+	}
+	
+	#projmain {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	#servmain {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	#clmain {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	
+	#contmain {
+		width: 100%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+}
+}
+
 @media screen and (max-width:992px) {
 
 	#navlogo {
