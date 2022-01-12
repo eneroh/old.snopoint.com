@@ -188,12 +188,12 @@ navmain a:hover {
 	color: #f4f4f4;
 }
 
-li a:hover:not(.active) {
-  background-color: #555;
+navmain a:hover:not(.active) {
+  background-color: #00ff00;
   color: #007eff;
 }
 
-li a.active {
+.active {
   background-color: #007eff;
   color: #000;
 }
