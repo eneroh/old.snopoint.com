@@ -121,8 +121,12 @@ nav a:link {
 	text-decoration: none;
 }
 
+nav a:link active {
+	color: #000;
+}
+
 nav a:hover {
-	background-color: #007eff;
+	/*background-color: #007eff;*/
 	color: #000000;
 }
 
