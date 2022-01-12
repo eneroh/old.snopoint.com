@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 .current {
-	background-color: #007eff;
+	/*background-color: #007eff;*/
 	color: #000000;
 }
 
