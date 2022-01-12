@@ -188,10 +188,16 @@ navmain a:hover {
 	color: #f4f4f4;
 }
 
-.active {
-	background-color: #007eff;
-	color: #000;
+li a:hover:not(.active) {
+  background-color: #555;
+  color: #007eff;
 }
+
+li a.active {
+  background-color: #007eff;
+  color: #000;
+}
+
 .navmain a:visited {
 	color: #f4f4f4;	
 }
