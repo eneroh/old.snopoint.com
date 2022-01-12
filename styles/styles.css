@@ -121,18 +121,9 @@ nav a:link {
 	text-decoration: none;
 }
 
-nav a:link active {
-	color: #000;
-}
-
 nav a:hover {
 	/*background-color: #007eff;*/
-	color: #000000;
-}
-
-.current {
-	/*background-color: #007eff;*/
-	color: #000000;
+	color: #007eff;
 }
 
 nav .left {
@@ -196,15 +187,6 @@ navmain a:hover {
 	background-color: #1a8bff; 	
 	color: #f4f4f4;
 }
-
-navmain a:active {
-	color: #000;	
-}
-
-.active {
-	background-color: #007eff; 
-	color: #000;
-}	
 
 .navmain a:visited {
 	color: #f4f4f4;	
@@ -475,7 +457,7 @@ input[type=submit]:hover {
 
 li a:hover:not(.active) {
   background-color: #555;
-  color: white;
+  color: #007eff;
 }
 
 a:link {
