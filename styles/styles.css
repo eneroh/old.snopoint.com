@@ -188,7 +188,7 @@ navmain a:hover {
 	color: #f4f4f4;
 }
 
-navmain a:active {
+.active {
 	background-color: #007eff;
 	color: #000;
 }
