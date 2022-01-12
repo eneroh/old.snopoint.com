@@ -188,6 +188,10 @@ navmain a:hover {
 	color: #f4f4f4;
 }
 
+navmain a:active {
+	background-color: #007eff;
+	color: #000;
+}
 .navmain a:visited {
 	color: #f4f4f4;	
 }
@@ -455,12 +459,12 @@ input[type=submit]:hover {
 
 /* Hyperlink related items */
 
-li a:hover:not(.active) {
+li a:hover:not(.current) {
   background-color: #555;
   color: #007eff;
 }
 
-li a.active {
+li a.current {
   background-color: #007eff;
   color: #000;
 }
