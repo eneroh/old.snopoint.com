@@ -131,7 +131,6 @@ nav a:link {
 nav a:link:hover {
 	/*background-color: #007eff;*/
 	color: #007eff;
-	background-color: #1b1c23;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
@@ -495,12 +494,12 @@ input[type=submit]:hover {
 /* Hyperlink related items */
 
 li a:hover:not(.current) {
-  background-color: #555;
+  /*background-color: #555;*/
   color: #007eff;
 }
 
 li a.current {
-  background-color: #007eff;
+  /*background-color: #007eff;*/
   color: #000;
 }
 
