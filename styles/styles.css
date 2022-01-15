@@ -121,9 +121,11 @@ nav a:link {
 	text-decoration: none;
 }
 
-nav a:hover {
+nav a:link:hover {
 	/*background-color: #007eff;*/
 	color: #007eff;
+	background-color: #1b1c23;
+	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
 nav .left {
@@ -179,18 +181,20 @@ nav .navhead {
 	color: #f4f4f4;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 16px;
 	display: block;
 }
 
-navmain a:hover {
+.navmain a:hover {
 	background-color: #1a8bff; 	
 	color: #f4f4f4;
+	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
-navmain a:hover:not(.active) {
-  background-color: #00ff00;
-  color: #007eff;
+.navmain a:hover:not(.active) {
+	background-color: #1a8bff;
+	color: #1b1c23;
+
 }
 
 .active {
@@ -225,7 +229,7 @@ navmain a:hover:not(.active) {
 }
 
 .logo {
-	text-align: center;
+	
 }
 
 .heading {
@@ -285,6 +289,22 @@ navmain a:hover:not(.active) {
 	padding-left: 5%;
 }
 
+footer {
+	height: 50px;
+	width: 100%;
+	padding-top: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+footer a {
+	padding: 15px;
+}
+
+footer a:hover {
+	color: #007eff;
+	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
+}
 
 /* info classes */
 
@@ -303,9 +323,7 @@ navmain a:hover:not(.active) {
 
 .infobottom {
 	height: 100%;
-	
-	
-	: 100%;
+	width: 100%;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -427,7 +445,7 @@ table.servtab td {
 	width: auto;
 }
 
-.form {
+/*.form {
   border-radius: 5px;
   padding: 20px;
 }
@@ -435,21 +453,20 @@ table.servtab td {
 .form label {
 	font-weight: bold;
 }
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #494949; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #494949;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   color: #f4f4f4;
   background-color: #1b1c23;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #007eff;
   color: #f4f4f4;
@@ -459,11 +476,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #0065CC;
   color: #000;
 }
+
+*/
 
 /* Hyperlink related items */
 
@@ -484,7 +502,7 @@ a:link {
 }
 
 a:active {
-	color: #0000FF;
+	color: #f4f4f4;
 	text-decoration: none;
 }
 
@@ -494,6 +512,11 @@ a:active {
 
 a:visited {
 	color: #f4f4f4;	
+}
+
+a.emphasis:hover {
+	color: #077eff;
+	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
 /* Resizing options */
@@ -844,5 +867,4 @@ a:visited {
 		padding-left: 0%;
 		padding-right: 0%;
 	}
-
 }
