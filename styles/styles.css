@@ -39,8 +39,7 @@ table {
 }
 
 hr {
-	color: #00FF00;
-	border: 1px solid #00FF00;
+	border: 1px solid #f4f4f4;
 }
 
 th, td, tr, tbody {
@@ -331,7 +330,6 @@ footer a:hover {
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
-	padding-bottom: 50px;
 }
 
 /* info pic divs */
