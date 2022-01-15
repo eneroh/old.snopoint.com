@@ -39,11 +39,14 @@ table {
 }
 
 hr {
-	border-bottom: 1px solid #f4f4f4;
+	border-bottom: 2px solid #f4f4f4;
+	margin: 16px auto;
+	width: 50px;
 }
 
-th, td, tr, tbody {
 
+hr:not([size]) {
+	height: 1px;
 }
 
 td {
