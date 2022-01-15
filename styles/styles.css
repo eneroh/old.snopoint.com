@@ -39,7 +39,7 @@ table {
 }
 
 hr {
-	border: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
 }
 
 th, td, tr, tbody {
