@@ -528,7 +528,7 @@ a.emphasis:hover {
 
 /* Resizing options */
 
-@media screen and (max-width:1291px) {
+@media screen and (max-width:1414px) {
 	
 	nav .navhead {
 		display: none;
