@@ -130,7 +130,7 @@ nav a:link {
 
 nav a:link:hover {
 	/*background-color: #007eff;*/
-	color: #007eff;
+	color: #1a8bff;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
@@ -500,7 +500,7 @@ li a:hover:not(.current) {
 
 li a.current {
   /*background-color: #007eff;*/
-  color: #000;
+  color: #007eff;
 }
 
 a:link {
