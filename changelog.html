@@ -54,6 +54,41 @@
 				<br>
 				<div class="infohead"><b>Changelog</b></div>
 				<div class="infobody">
+					<p>16 Jan 2021</p>
+				<ul>
+					<li>Return back to Cloudflare DNS, site is accessible again and no longer linked to my personal web server</li>
+					<li>Official removal of contact.html page from github, form has been deleted entirely. Which kind of sucks because that sure was one neat form ):</li>
+					<li>Changes made to every page in relation to changes made yesterday. Nav, page links, footer addition and formatting, formatting in general for each page</li>
+					<li>Bit of a serious overhaul, now that removal of form has been accomplished. I do not require extended features, I am satisfied with github pages once more.
+					Therefore the website will stay here until I feel like moving the web server to say a... VPS. A solution like a VPS almost guarantees no downtime, unlike my server aha</li>
+					<li>Satisfied with change as of right now. Just need to change the 3 images at the end of index.html as they are not symmetrical, qucik fix but tad lazy right now and perhaps the main nav.
+					It doesn't appear symmetrical either and kind of annoys the OCD in me. Images for proejcts page placemakers and perhaps a more organised feel</li>
+					<li>Drop downs for nav that auto go to specific sections of pages</li>
+					<li>Path displays like <a href="https://www.w3schools.com/howto/howto_css_breadcrumbs.asp">breadcrumb navigation</a></li>
+					<li>+ other cosmetic items that make the website less boring. I really want to explore a forum like solution. Time will tell if I ever get around to that though. Personally thinking a discourse website
+					or perhaps I'll make it myself similar to this website. Who knows?</li>
+				</ul>
+				<br>
+					<p>15 Jan 2021</p>
+				<ul>
+					<li>Big navbar changes, normal not mobile. Specifically, changes of padding-top from percentage based 1-2% to 22.5px or pixel based formatting.</li>
+					<li>Temporarily re-up of nginx web server to do serious and speedy website updates</li>
+					<li>Cloudflare pointing to my external temporarily, index.html doesn't even load due to lacking of ssl cert. Cloudflare ¯\_(ツ)_/¯</li>
+					<li>Changes made to contact.html and contactform.php: i.e. a lot of php code has been repeatedly changed, nginx back-end annoying the hell outta me with the config file.</li>
+					<li>So apparently I need an email server in the background of my website for form functionality to work correctly</li>
+					<li>Scrapping of form for mailto:<myself> using an icon at footer. Simplifies everything and security is maintained as having two services (email and web) on the same server is a security nightmare.
+					Also because I don't wanna get spammed due to having to lessen spamassassin rules for the mail server to function</li>
+					<li>Prior to the great form scrapping of 2022, I was looking at alternatives ranging from javascript mailing methods, as well as phpmailer. Sadly, I am incredibly disappointed. The js method works well but requires me to 
+					input my gmail smtp password in plaintext, or to secure/obsure my password I need to look into frameworks like node.js. Yeah, nope</li>
+					<li>Finally fixed coloring issues of main navbar and mobile nav bar, footer as well as all a/hyperlink related links. They now have a snazzy timer and hover based color (#007eff) transition. 
+					Special thanks to <a href="http://csszengarden.com">http://csszengarden</a> for the inspiration</li>
+					<li>Footer added at the bottom of the contact webpage, soon to be all. A lot of formatting around the a/hyperlink class "icon"</li>
+					<li>@media changes for previous 1136px to now 1414px as changes have been made to navhead image</li>
+					<li>navhead has had resizing issues and to combat this I have reformatted navhead image and the padding element around it. Now no more nav blocking is occuring, woohoo</li>
+					<li>Main nav has outdated and rather limited fontawesome icons, replaced 4.7.0 version to latest 6.0.0.beta3, looking more recent and footer has icons that were inaccessible previously</li>
+					<li>Contact page is soon to be deleted entirely as with new footer introuction, a contact page or contact form will no longer be necessary</li>
+				</ul>
+				<br>
 					<p>13 Jan 2021</p>
 				<ul>
 					<li>Big, stressful move from Namecheap DNS to Cloudflare</li>
@@ -95,6 +130,7 @@
 					<li>Investigation proves Github functionality doesn't support POST, which is absolutely necessary in sending forms/emails</li>
 					<li>Alternatives will be the next avenue to pursue as Github doesn't possess the functionality required for this project</li>
 					<li>Will need to proceed w/ self-hosting and creation of VPS based email server, as this is required to receive emails</li>
+					<li>Changes made to viewport, specifically for nav, navhead image in annoying me so I've made</li>
 				</ul>
 				<br>
 					<p>30 Dec 2021</p>
