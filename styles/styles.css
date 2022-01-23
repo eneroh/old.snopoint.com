@@ -720,7 +720,12 @@ a.emphasis:hover {
 		width: 100%;
 		padding-top: 0%;
 	}
-
+	
+	.infobottom img {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
 	#projmain {
 		width: 100%;
 		padding-left: 0%;
@@ -776,6 +781,11 @@ a.emphasis:hover {
 	.inforight {
 		width: 100%;
 		padding-top: 0%;
+	}
+	
+	.infobottom img {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	
 	#projmain {
