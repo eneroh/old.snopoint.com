@@ -788,6 +788,10 @@ a.emphasis:hover {
 		padding-right: 0px;
 	}
 	
+	.hiddenpic {
+		display: none;	
+	}
+	
 	#projmain {
 		width: 100%;
 		padding-left: 0%;
