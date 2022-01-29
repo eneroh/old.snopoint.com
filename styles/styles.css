@@ -144,8 +144,9 @@ nav .left {
 nav .right {
 	padding-top: 22.5px;	
 	display: inline;
-	width: 515px;
+	width: 575px;
 	float: right;
+	text-align: right;
 }
 
 nav .navhead {
