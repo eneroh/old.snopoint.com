@@ -231,7 +231,7 @@ ul.breadcrumb li {
 
 ul.breadcrumb li+li:before {
   padding: 8px;
-  color: black;
+  color: #f4f4f4;
   content: "/\00a0";
 }
 
