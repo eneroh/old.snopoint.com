@@ -221,7 +221,8 @@ nav .navhead {
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: #eee;
+  background-color: #262831;
+  border-radius: 3px;
 }
 
 ul.breadcrumb li {
