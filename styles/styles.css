@@ -143,9 +143,7 @@ nav .left {
 
 nav .right {
 	padding-top: 22.5px;	
-	display: inline;
 	width: 575px;
-	float: right;
 	text-align: right;
 }
 
@@ -519,6 +517,11 @@ a.emphasis:hover {
 
 @media screen and (max-width:1414px) {
 	
+	nav {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
 	nav .navhead {
 		display: none;
 	}
@@ -528,11 +531,12 @@ a.emphasis:hover {
 	}
 	
 	nav .left {
-		width: 0px;	
+		width: 0px;
+		left: 0;
 	}
 	
 	nav .right {
-		width:	80.7%;
+		width:	575px;
 	}
 	
 	#infomain {
