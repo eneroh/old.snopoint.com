@@ -789,7 +789,7 @@ a.emphasis:hover {
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 
 	.navlogo {
 		width: 100%;
