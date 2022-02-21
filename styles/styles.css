@@ -273,7 +273,7 @@ ul.breadcrumb li a:hover {
 	height: 10%;
 	width: 100%;
 	text-align: center;
-	text-shadow: 50px solid black;
+	text-shadow: 50px;
 	font-size: 120%;
 }
 
