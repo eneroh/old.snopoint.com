@@ -473,7 +473,9 @@ table.servtab td {
 	width: auto;
 }
 
-/*.form {
+/* The form, oh yeah baby */
+
+.form {
   border-radius: 5px;
   padding: 20px;
 }
@@ -508,8 +510,6 @@ input[type=submit]:hover {
   background-color: #0065CC;
   color: #000;
 }
-
-*/
 
 /* Hyperlink related items */
 
