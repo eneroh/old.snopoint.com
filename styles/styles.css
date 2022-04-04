@@ -497,7 +497,7 @@ input[type=text], select, textarea {
   background-color: #1b1c23;
 }
 
-input[type=email] {
+input[type=email], select, textarea {
   width: 100%;
   padding: 12px; 
   border: 1px solid #494949;
