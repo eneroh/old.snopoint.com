@@ -536,9 +536,13 @@ li a.current {
   color: #007eff;
 }
 
-a:link {
+infobody a:link {
 	color: #f4f4f4;
 	text-decoration: none;
+	outline: 0;
+}
+
+servmain a:link {
 	outline: 0;
 }
 
