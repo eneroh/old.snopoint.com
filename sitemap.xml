@@ -1,7 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head><title>Sitemap | eneroh.com</title></head>
-  <body>
-    
-  </body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://v2.eneroh.com</loc>
+    <lastmod>2026-07-1</lastmod>
+  </url>
+  <url>
+    <loc>https://v2.eneroh.com/projects</loc>
+    <lastmod>2026-07-1</lastmod>
+  </url>
+  <url>
+    <loc>https://v2.eneroh.com/services</loc>
+    <lastmod>2026-07-1</lastmod>
+  </url>
+  <url>
+    <loc>https://v2.eneroh.com/changelog</loc>
+    <lastmod>2026-07-1</lastmod>
+  </url>
+</urlset>
